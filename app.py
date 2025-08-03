@@ -6,7 +6,7 @@ import pandas as pd
 import os
 from gtts import gTTS
 
-df = pd.read_csv(r"E:\Daily Tasks\NLP\2nd - NLP project\MULTIPLE LANGUAGE TRANSLATION\language.csv")
+df = pd.read_csv(r"E:\Practice\NLP projects\ai_voiceover_app\language.csv")
 
 df.dropna(inplace=True)
 lang = df['name'].to_list()
